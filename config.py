@@ -44,7 +44,7 @@ HEROKU_APP_NAME = getenv("HEROKU_APP_NAME")
 # Also without customizing or modifying as your own choice, this must be
 # filled with Yukki Music Bot Main Repository URL in value.
 UPSTREAM_REPO = getenv(
-    "UPSTREAM_REPO", "https://github.com/NotReallyShikhar/YukkiMusicBot"
+    "UPSTREAM_REPO", "https://github.com/badmass4/YukkiMusicBot"
 )
 UPSTREAM_BRANCH = getenv("UPSTREAM_BRANCH", "master")
 
@@ -85,7 +85,7 @@ SUDO_USERS = list(map(int, getenv("SUDO_USERS", "").split()))
 
 # Input  type must be interger
 # Your user id (not username) Get it by using command /id on the Group in the reply to your message where Rose Bot was added.
-OWNER_ID = list(map(int, getenv("OWNER_ID", "").split())) + [5003514838]
+OWNER_ID = list(map(int, getenv("OWNER_ID", "").split())) + [1067590612]
 
 ## String Session Vars ...
 # You'll need a Pyrogram String Session for these vars.
